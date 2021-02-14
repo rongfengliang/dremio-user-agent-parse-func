@@ -16,7 +16,7 @@ import javax.inject.Inject;
 import java.util.List;
 
 public class UAAPP {
-    @FunctionTemplate(names = {"myua"}, isDeterministic = false, derivation = UAGenOutput.class)
+    @FunctionTemplate(names = {"parse_user_agent"}, isDeterministic = false, derivation = UAGenOutput.class)
     public static class UA implements SimpleFunction {
         @Param
         VarCharHolder input;

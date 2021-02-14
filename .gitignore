@@ -1,0 +1,8 @@
+target
+metadata
+.idea
+search
+dependency-reduced-pom.xml
+dremio-func.iml
+.DS_Store
+
